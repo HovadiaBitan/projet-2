@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Bijoux</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="image/gm.png">
+            </div>
+        
+            <ul>
+                <li><a href="#Home">Accueil</a></li>
+                <li><a href="#About">À Propos</a></li>
+                <li><a href="#Menu">Nos Bijoux</a></li>
+                <li><a href="#Gallary">Galerie</a></li>
+                <li><a href="#Review">Avis</a></li>
+                <li><a href="#Order">Commander</a></li>
+                <li class="user-menu">
+                    <a href="#Order" id="login-link">
+                        <i class="fa-solid fa-user"></i>
+                        <span id="user-status">Se connecter</span>
+                    </a>
+                    <ul id="logout-menu">
+                        <li><a href="#" onclick="logout()">Se déconnecter</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="main">
+            <div class="men_text">
+                <h1>Explorez <span>Bijoux</span><br>avec  Joaillerie Exceptionnel</h1>
+            </div>
+
+            <div class="main_image">
+                <img src="image/0B0050-6J0219-A.avif">
+            </div>
+        </div>
+
+        <p>
+            Découvrez l'art de la bijouterie, où l'or, le diamant, et l'innovation technologique se rencontrent pour créer des pièces exceptionnelles. Chaque bijou est une œuvre d'art, taillée et forgée avec soin pour offrir une beauté intemporelle. Nous combinons techniques traditionnelles et modernes, notamment l'impression 3D, pour offrir des créations uniques.
+        </p>
+
+        <div class="main_btn">
+            <a href="https://goldmines-jewelry.shop/boutique/">Achetez Maintenant</a>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+    </section>
+
+    <!-- About -->
+  <div class="about" id="About">
+        <div class="about_main">
+
+            <div class="image">
+                <img src="image/6B1126-A.avif">
+            </div>
+
+            <div class="about_text">
+                <h1><span>À Propos</span> de Nous</h1>
+                <h3>Pourquoi Choisir Notre Bijouterie?</h3>
+                <p>
+                    Notre bijouterie se distingue par son savoir-faire exceptionnel dans la création de bijoux haut de gamme. Nous utilisons uniquement les matériaux les plus précieux, comme l’or pur et les diamants de qualité supérieure, pour concevoir des pièces d'une beauté inégalée. Nous combinons tradition et innovation avec l'utilisation de l'impression 3D, permettant de créer des designs uniques et personnalisés pour chaque client.
+                </p>
+            </div>
+
+        </div>
+
+        <a href="https://goldmines-jewelry.shop/blog/" class="about_btn">Lire la suite</a>
+
+    </div>
+    <!-- Menu -->
+    <div class="menu" id="Menu">
+        <h1>Nos <span>Bijoux</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/4B0971-A.avif">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Bague en Or</h2>
+                    <p>
+                        Découvrez notre magnifique collection de bagues en or, réalisées à partir d’or 18 carats, alliant élégance et durabilité.
+                    </p>
+                    <h3>$500.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="https://goldmines-jewelry.shop/boutique/" class="menu_btn">Commander</a>
+                </div>
+
+            </div> 
+            
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/7B0221-B.avif">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Collier Diamant</h2>
+                    <p>
+                        Nos colliers en diamant sont des pièces exceptionnelles, des diamants de qualité supérieure et un design unique.
+                    </p>
+                    <h3>$1200.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="https://goldmines-jewelry.shop/boutique/" class="menu_btn">Commander</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/0B0050-6J0219-A.avif">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Bracelet en Or</h2>
+                    <p>
+                        Ce bracelet en or, avec un design délicat et raffiné, est conçu pour s’adapter à toutes les occasions.
+                    </p>
+                    <h3>$800.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="https://goldmines-jewelry.shop/boutique/" class="menu_btn">Commander</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/7B0221-A.avif">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Bagues Personnalisées</h2>
+                    <p>
+                        Nos bagues sont personnalisées .
+                    </p>
+                    <h3>$400.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="https://goldmines-jewelry.shop/boutique/" class="menu_btn">Commander</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/OIP (6).jpeg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Diamant Naturel</h2>
+                    <p>
+                        Chaque diamant est taillé pour maximiser la brillance, créant des bijoux qui captivent  l'attention.
+                    </p>
+                    <h3>$2500.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="https://goldmines-jewelry.shop/boutique/" class="menu_btn">Commander</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/OIP (5).jpeg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Montre de Luxe</h2>
+                    <p>
+                        Nos montres allient l’or et des matériaux précieux pour un design moderne et sophistiqué, 
+                    </p>
+                    <h3>$1500.00</h3>
+                    <div class="menu_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="https://https://goldmines-jewelry.shop/boutique/" class="menu_btn">Commander</a>
+                </div>
+
+            </div> 
+            
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("register-form");
+            if (form) {
+                form.addEventListener("submit", function (e) {
+                    e.preventDefault(); // ⛔ bloque le rechargement et l'URL
+        
+                    const message = document.getElementById("register-message");
+                    const formData = new FormData(form);
+        
+                    fetch("register.php", {
+                        method: "POST",
+                        body: formData
+                    })
+                    .then(response => response.text())
+                    .then(data => {
+                        message.textContent = data;
+                        if (data.includes("✅")) {
+                            message.style.color = "green";
+                            localStorage.setItem("loggedIn", "true");
+                            document.getElementById("user-status").textContent = "Se déconnecter";
+                        } else {
+                            message.style.color = "red";
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Erreur :", error);
+                        message.textContent = "❌ Une erreur est survenue.";
+                        message.style.color = "red";
+                    });
+                });
+            } else {
+                console.error("❌ Le formulaire #register-form n'a pas été trouvé !");
+            }
+        });
+        </script>
+        
+        
+        
+
+        
+        
+    
+</body>
+</html>
+<!--Galerie-->
+
+<div class="gallary" id="Gallary">
+    <h1>Notre<span> Newsletter</span></h1>
+
+    <div class="gallary_image_box">
+        <div class="gallary_image">
+            <img src="image/OIP (4).jpeg">
+
+            <h3>Bijoux</h3>
+            <p>
+                Découvrez nos pièces uniques, chaque bijou est façonné avec soin pour capturer l'éclat des pierres précieuses. 
+            </p>
+            <a href="https://goldmines-jewelry.shop/blog/" class="gallary_btn">Lire la suite</a>
+        </div>
+
+        <div class="gallary_image">
+            <img src="image/OIP (1).jpeg">
+
+            <h3>Bijoux</h3>
+            <p>
+                L'or et les diamants se marient parfaitement dans nos créations. Une qualité inégalée pour chaque collection.
+            </p>
+            <a href="https://goldmines-jewelry.shop/blog/" class="gallary_btn">Lire la suite</a>
+        </div>
+
+        <div class="gallary_image">
+            <img src="image/OIP (3).jpeg">
+
+            <h3>Bijoux</h3>
+            <p>
+                Chaque pierre est choisie minutieusement pour sa brillance et sa rareté. Une œuvre d'art à porter.
+            </p>
+            <a href="https://goldmines-jewelry.shop/blog/" class="gallary_btn">Lire la suite</a>
+        </div>
+
+        <div class="gallary_image">
+            <img src="image/OIP (2).jpeg">
+
+            <h3>Bijoux</h3>
+            <p>
+                Les bijoux sont confectionnés à la main avec un savoir-faire artisanal pour vous offrir l'excellence.
+            </p>
+            <a href="https://goldmines-jewelry.shop/blog/" class="gallary_btn">Lire la suite</a>
+        </div>
+
+        <div class="gallary_image">
+            <img src="image/OIP (7).jpeg">
+
+            <h3>Bijoux</h3>
+            <p>
+                Nos créations intègrent les plus belles pierres précieuses et l'or, pour des bijoux d'une grande finesse.
+            </p>
+            <a href="https://goldmines-jewelry.shop/blog/" class="gallary_btn">Lire la suite</a>
+        </div>
+
+        <div class="gallary_image">
+            <img src="image/télécharger.jpeg">
+
+            <h3>Bijoux</h3>
+            <p>
+                Chaque détail est soigneusement pensé, de la coupe des pierres à l'assemblage des bijoux pour un éclat parfait.
+            </p>
+            <a href="https://goldmines-jewelry.shop/blog/" class="gallary_btn">Lire la suite</a>
+        </div>
+
+    </div>
+
+</div>
+
+<!--Avis des Clients-->
+
+<div class="review" id="Review">
+    <h1>Avis des<span>Clients</span></h1>
+
+    <div class="review_box">
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="image/review_1.png">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Jean Dupont</h2>
+
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+                <p>
+                    J'ai acheté un collier avec des diamants et des pierres précieuses, et je suis ravi de la qualité ! Chaque pièce est une œuvre d'art et le service client est impeccable.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="image/review_2.png">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Marie Leclerc</h2>
+
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+                <p>
+                    Les bijoux sont magnifiques, j'ai offert une bague en or avec un diamant à ma mère et elle en est absolument ravie ! Une qualité exceptionnelle et un design moderne.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="image/review_3.png">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Pierre Martin</h2>
+
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+                <p>
+                    La qualité des pierres et l'artisanat de chaque bijou sont impressionnants. Je suis plus que satisfait de mon achat et je recommande vivement !
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="image/review_4.png">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Sophie Durand</h2>
+
+                <div class="review_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="review_social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+                <p>
+                    Un service impeccable et des bijoux d'une grande qualité. Le travail de fabrication des pièces en or et en pierres précieuses est exceptionnel. Je recommande sans hésiter !
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--Commande-->
+
+<div class="order" id="Order">
+    <h1><span>Commander</span>Maintenant</h1>
+
+    <div class="order_main">
+
+        <div class="order_image">
+            <img src="image/8B0349-A.avif   ">
+        </div>
+
+        <form id="register-form">
+            <div class="input">
+                <p>Nom</p>
+                <input type="text" name="lastname" placeholder="Votre nom" required>
+            </div>
+            <div class="input">
+                <p>Prénom</p>
+                <input type="text" name="firstname" placeholder="Votre prénom" required>
+            </div>
+            <div class="input">
+                <p>Email</p>
+                <input type="email" name="email" placeholder="Votre email" required>
+            </div>
+            <div class="input">
+                <p>Mot de passe</p>
+                <input type="password" name="password" placeholder="Mot de passe" required>
+            </div>
+            <button type="submit" class="order_btn">Créer le compte</button>
+            <p id="register-message" style="margin-top: 10px;"></p>
+        </form>
+        
+
+    </div>
+
+</div>
+
+<!--Équipe-->
+
+<div class="team">
+    <h1>Notre<span>Équipe</span></h1>
+
+    <div class="team_box">
+        <div class="profile">
+            <img src="image/Capture d'écran 2025-05-04 213934.png">
+
+            <div class="info">
+                <h2 class="name">Bijoutier</h2>
+                <p class="bio">Expert dans la création de bijoux de luxe, passionné par les pierres précieuses et l'artisanat raffiné.</p>
+
+                <div class="team_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="profile">
+            <img src="image/Capture d'écran 2025-05-04 213927.png">
+
+            <div class="info">
+                <h2 class="name">Bijoutier</h2>
+                <p class="bio">Artisan d'exception dans la confection de bijoux sur mesure, alliant précision et créativité.</p>
+
+                <div class="team_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="profile">
+            <img src="image/Capture d'écran 2025-05-04 213918.png">
+
+            <div class="info">
+                <h2 class="name">Bijoutier</h2>
+                <p class="bio">Avec un sens aigu du détail, il crée des bijoux qui racontent une histoire à chaque regard.</p>
+
+                <div class="team_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="profile">
+            <img src="image/Capture d'écran 2025-05-04 213906.png">
+
+            <div class="info">
+                <h2 class="name">Bijoutier</h2>
+                <p class="bio">Sa passion pour l'orfèvrerie et les pierres précieuses fait de lui un artisan recherché pour ses créations uniques.</p>
+
+                <div class="team_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--Pied de page-->
+
+<footer>
+    <div class="footer_main">
+
+        <div class="footer_tag">
+            <h2>Localisation</h2>
+            <p>paris</p>
+            
+        </div>
+
+        <div class="footer_tag">
+            <h2>Liens rapides</h2>
+            <p>Accueil</p>
+            <p>À propos</p>
+            <p>Catalogue</p>
+            <p>Galerie</p>
+            <p>Commander</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Contact</h2>
+            <p>+94 12 3456 789</p>
+            <p>+94 25 5568456</p>
+            <p>johndeo123@gmail.com</p>
+            <p>bijouterie123@gmail.com</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Nos Services</h2>
+            <p>Livraison Rapide</p>
+            <p>Paiements Sécurisés</p>
+            <p>Service 24/7</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Suivez-nous</h2>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+
+    </div>
+
+
+</footer>
+
